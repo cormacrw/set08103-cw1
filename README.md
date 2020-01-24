@@ -19,7 +19,7 @@ We will be building the reports and serving them through a website. We will use 
 - Cormac Williamson
 - Jack McKenna  
 - Andrei Chirovici
-- Christopher Scobe 
+- Christopher Scobi 
 
 # Code of conduct 
 ## Team work 

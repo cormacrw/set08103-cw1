@@ -15,14 +15,14 @@ We will be building the reports and serving them through a website. We will use 
 - DBConnection
 - HTMLGenerator
 
-#group 19 members 
+# group 19 members 
 - Cormac Williamson
 - Jack McKenna  
 - Andrei Chirovici
 - Christopher Scobe 
 
-#Code of conduct 
+# Code of conduct 
 ## Team work 
 We are a group of four when creating and developing this project. Because of this it means that the work will be devided up and shared between group members equally to ensure the most efficient work and to make it collaberative. As well as this we will have bi weekly team meetings where we ensure that we are all still working towards to same goal as a group.
-##Security 
+## Security 
   

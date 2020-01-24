@@ -14,3 +14,13 @@ We will be building the reports and serving them through a website. We will use 
 - ReportGenerator
 - DBConnection
 - HTMLGenerator
+
+#group 19 members 
+- Cormac Williamson
+- Jack McKenna  
+- Andrei Chirovici
+- Christopher Scobe 
+
+#Code of conduct 
+## Team work 
+Our gr

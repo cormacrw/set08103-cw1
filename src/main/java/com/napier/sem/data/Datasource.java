@@ -10,7 +10,7 @@ import com.mongodb.client.MongoDatabase;
 public class Datasource {
 
     private static final String DB_NAME = "mydb";
-    private static final String DB_HOST = "mydb";
+    private static final String DB_HOST = "localhost";
     private static final int DB_PORT = 27000;
 
     private MongoDatabase database;

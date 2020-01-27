@@ -25,4 +25,9 @@ We will be building the reports and serving them through a website. We will use 
 ## Team work 
 We are a group of four when creating and developing this project. Because of this it means that the work will be devided up and shared between group members equally to ensure the most efficient work and to make it collaberative. As well as this we will have bi weekly team meetings where we ensure that we are all still working towards to same goal as a group.
 ## Security 
+Through out the project when handling sensitive or personal data we will follow all the set rquirements and laws that  are in place to preotect such data. This will endure the data security of all elements of this project 
+## Behaviour 
+During the project we will all be working closley together and all be bringing deifferent opions and developmkent plans to the table. To ensure that this is doesnt become a disruptive feature for our project behaviour will be set at a professional level where everyone is heard and contrasting opinions are voted for with the majority being the method used.
+## Deadlines
+Throughout this project there are many seperate deadlines for the group to meet. Beacuse of this we will use our bi weekly methods to maintain the work structure to ensure these deadlines are met punctually. 
   

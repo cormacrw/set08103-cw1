@@ -1,5 +1,6 @@
 # set08103-cw1
 First coursework for Software Engineering Methods
+[![Build Status](https://travis-ci.org/cormacrw/set08103-cw1.svg?branch=master)](https://travis-ci.org/cormacrw/set08103-cw1)
 
 # Overview
 We will be building the reports and serving them through a website. We will use Trello as a tool to keep track of what tasks each of us are working on.

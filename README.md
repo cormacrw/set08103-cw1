@@ -30,4 +30,6 @@ Through out the project when handling sensitive or personal data we will follow 
 During the project we will all be working closley together and all be bringing deifferent opions and developmkent plans to the table. To ensure that this is doesnt become a disruptive feature for our project behaviour will be set at a professional level where everyone is heard and contrasting opinions are voted for with the majority being the method used.
 ## Deadlines
 Throughout this project there are many seperate deadlines for the group to meet. Beacuse of this we will use our bi weekly methods to maintain the work structure to ensure these deadlines are met punctually. 
-  
+
+# work layout submision 1 
+https://docs.google.com/spreadsheets/d/1L7NcdjRmdt6YxblBG4ude9jL8dxua6V7huGiK5KsBVQ/edit#gid=0  

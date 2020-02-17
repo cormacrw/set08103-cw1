@@ -36,3 +36,15 @@ Throughout this project there are many seperate deadlines for the group to meet.
 
 # work layout submision 1 
 https://docs.google.com/spreadsheets/d/1L7NcdjRmdt6YxblBG4ude9jL8dxua6V7huGiK5KsBVQ/edit#gid=0  
+
+
+# Web Server routes
+
+page | route
+-----|-------
+Home | /
+All countries in world | /report/country/world
+All countries in continent | /report/country/continent
+All countries in region | /report/country/region
+top x countries in world form | /form/country/world/top
+top x countries in world report | /form/country/world/top/x

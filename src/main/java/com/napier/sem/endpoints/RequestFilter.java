@@ -17,6 +17,11 @@ public class RequestFilter extends AbstractEndpoint {
             return;
         }
 
+        if( exchange.getRequestURI().getRawPath().equals("/data-test") ) {
+            new DataTestEndpoint( exchange ).buildResponse();
+            return;
+        }
+
 
         System.out.println(exchange.getRequestURI().getRawPath());
         String[] pathArr = exchange.getRequestURI().getRawPath().split("/");

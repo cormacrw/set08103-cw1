@@ -1,8 +1,6 @@
 package com.napier.sem.data;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+import java.sql.*;
 
 /**
  * Class that handles connecting to database. Uses singleton method to ensure that no more than one connection is made
@@ -24,6 +22,7 @@ public class Datasource {
         catch (ClassNotFoundException e)
         {
             System.out.println("Could not load SQL driver");
+            System.out.print(e.getMessage());
             System.exit(-1);
         }
 

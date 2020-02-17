@@ -10,10 +10,12 @@ import java.util.ArrayList;
 public class TextFileReader {
 
     public static ArrayList<ListItem> getListItems() {
+        String filePath = "/tmp/homeListItems.txt";
+        System.out.println(filePath);
         BufferedReader reader;
         ArrayList<ListItem> listItems = new ArrayList<ListItem>();
         try {
-            reader = new BufferedReader( new FileReader( "homeListItems" ) );
+            reader = new BufferedReader( new FileReader( filePath ) );
             String line = reader.readLine();
             while( line != null ) {
                 String[] listProperties = line.split(",");

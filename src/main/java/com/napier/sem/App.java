@@ -10,7 +10,7 @@ import java.net.InetSocketAddress;
  */
 public class App {
 
-    public static String HOST_NAME = "localhost";
+    public static String HOST_NAME = "0.0.0.0";
     public static int HOST_PORT = 3000;
 
     private HttpServer httpServer;

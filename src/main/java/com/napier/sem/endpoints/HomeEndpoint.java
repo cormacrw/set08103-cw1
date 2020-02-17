@@ -7,6 +7,9 @@ import com.sun.net.httpserver.HttpExchange;
 import java.io.IOException;
 import java.io.OutputStream;
 
+/**
+ * Home endpoint that is called when '/' is requested
+ */
 public class HomeEndpoint {
 
     private HttpExchange exchange;

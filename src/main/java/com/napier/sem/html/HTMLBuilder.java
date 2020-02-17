@@ -1,5 +1,8 @@
 package com.napier.sem.html;
 
+/**
+ * Base class for building up HTML Strings
+ */
 public class HTMLBuilder {
     private StringBuilder htmlString;
 

@@ -6,6 +6,9 @@ import com.sun.net.httpserver.HttpExchange;
 import java.io.IOException;
 import java.io.OutputStream;
 
+/**
+ * Endpoint to test database connection
+ */
 public class DataTestEndpoint {
 
     private HttpExchange exchange;

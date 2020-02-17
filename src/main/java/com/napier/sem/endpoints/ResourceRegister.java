@@ -2,6 +2,9 @@ package com.napier.sem.endpoints;
 
 import com.sun.net.httpserver.HttpServer;
 
+/**
+ * Class that registers the request filter to listen on the root path.
+ */
 public class ResourceRegister {
 
     private HttpServer httpServer;

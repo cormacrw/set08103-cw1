@@ -2,6 +2,9 @@ package com.napier.sem.html;
 
 import java.util.ArrayList;
 
+/**
+ * Class for building up HTML Table string dynamically
+ */
 public class HTMLTableBuilder extends HTMLBuilder{
 
 

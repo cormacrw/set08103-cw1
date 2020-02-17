@@ -5,6 +5,9 @@ import com.sun.net.httpserver.HttpExchange;
 import java.io.IOException;
 import java.io.OutputStream;
 
+/**
+ * Class that handles every request and picks which endpoint to route to
+ */
 public class RequestFilter extends AbstractEndpoint {
 
     public static final String PATH = "/";

@@ -1,25 +1,28 @@
 # set08103-cw1
 First coursework for Software Engineering Methods
+[![Build Status](https://travis-ci.org/cormacrw/set08103-cw1.svg?branch=master)](https://travis-ci.org/cormacrw/set08103-cw1)
 
 # Overview
 We will be building the reports and serving them through a website. We will use Trello as a tool to keep track of what tasks each of us are working on.
 
-# Tasks
-- Set up db connection so we're able to query from db.
-- Set up report generator based on an array of data.
-- All the countries population sort ( this should be mainly a sql excercise )
-- The top x countries by population where x is the amount of countries to include
+# User Stories
+- As a user I need to be able to gather data from the database
+- As a user I need to be able to get the top countries ordered by population
+- As a user I need to be able to get the top continents ordered by population
+- As a user I need to be able to get the top capitals ordered by population
+- As a user I need to be able to get the top cities ordered by population
+- As a user I need to be able to limit the results by the amount I see fit
+- As a user I need to be able to get the percentage of population
 
-# Classes to setup
-- ReportGenerator
-- DBConnection
-- HTMLGenerator
+# Use cases
+
 
 # group 19 members 
 - Cormac Williamson
 - Jack McKenna  
 - Andrei Chirovici
-- Christopher Scobi 
+- Christopher Scobie
+
 
 # Code of conduct 
 ## Team work 

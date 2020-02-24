@@ -1,4 +1,4 @@
 package com.napier.sem.pages;
 
-public class ReportPageBuilder {
+public class CityReportPage {
 }

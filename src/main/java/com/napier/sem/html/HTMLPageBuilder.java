@@ -6,7 +6,8 @@ public class HTMLPageBuilder extends HTMLBuilder {
 
 
     public HTMLPageBuilder() {
-        append("<html><head><title>SEM Coursework</title></head><body>");
+
+        append("<html><head><title>SEM Coursework</title><link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css\" integrity=\"sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh\" crossorigin=\"anonymous\"></head><body>");
     }
 
     public HTMLPageBuilder addHeader( String header ) {
@@ -15,7 +16,7 @@ public class HTMLPageBuilder extends HTMLBuilder {
         return this;
     }
 
-    public HTMLPageBuilder addBody( String body ) {
+    public HTMLPageBuilder appendToBody( String body ) {
         append(body);
         return this;
     }

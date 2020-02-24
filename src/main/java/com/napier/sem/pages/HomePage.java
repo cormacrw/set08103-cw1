@@ -13,7 +13,7 @@ public class HomePage {
 
         return new HTMLPageBuilder()
                 .addHeader("Home Page")
-                .addBody( new HTMLListBuilder().addItems( listItems ).build() )
+                .appendToBody( new HTMLListBuilder().addItems( listItems ).build() )
                 .build();
     }
 }

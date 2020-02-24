@@ -17,7 +17,7 @@ public class DataTestEndpoint {
     public void buildResponse() throws IOException {
         String html = new TestDataPage().build();
 
-        exchange.sendResponseHeaders(404, html.getBytes().length);
+        exchange.sendResponseHeaders(200, html.getBytes().length);
         OutputStream os = exchange.getResponseBody();
         os.write(html.getBytes());
         os.close();

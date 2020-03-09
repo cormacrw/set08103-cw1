@@ -2,6 +2,7 @@ package com.napier.sem.endpoints;
 
 import com.napier.sem.data.RequestBodyReader;
 import com.napier.sem.pages.Country.Form.CountryContinentForm;
+import com.napier.sem.pages.Country.Form.CountryRegionForm;
 import com.napier.sem.pages.Country.Form.CountryWorldForm;
 import com.napier.sem.pages.Country.Report.CountryReportPage;
 import com.sun.net.httpserver.HttpExchange;
@@ -26,7 +27,7 @@ public class CountryEndpoint {
             if( pathArr[3].equals("all") ) {
                 html = new CountryWorldForm().build();
             } else if (pathArr[3].equals("region")) {
-//                html = new CountryRegionForm().build();
+                html = new CountryRegionForm().build();
             } else if( pathArr[3].equals("continent") ) {
                 html = new CountryContinentForm().build();
             }

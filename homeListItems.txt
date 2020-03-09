@@ -1,3 +1,6 @@
 All countries,/form/country/all
 Countries in a continent,/form/country/continent
 Countries in a region,/form/country/region
+Population by Country,/report/population/country
+Population By Region,/report/population/region
+Population By Continent,/report/population/continent

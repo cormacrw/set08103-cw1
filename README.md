@@ -48,3 +48,9 @@ All countries in continent | /report/country/continent
 All countries in region | /report/country/region
 top x countries in world form | /form/country/world/top
 top x countries in world report | /form/country/world/top/x
+
+# Population query
+
+```
+select country.Name, country.Population, ROUND(SUM(city.Population) / country.Population * 100,1) as popInCity, ROUND((country.Population - SUM(city.Population)) / country.Population * 100, 1) as popOutCity from country join city on country.Code = city.CountryCode GROUP BY country.Code;
+```

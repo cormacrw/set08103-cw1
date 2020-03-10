@@ -28,6 +28,10 @@ public class RequestFilter extends AbstractEndpoint {
             new CountryEndpoint( exchange, pathArr ).buildResponse();
             return;
         }
+        if( pathArr[2].equals("cities") ) {
+            new CitiesEndpoint( exchange, pathArr ).buildResponse();
+            return;
+        }
 
         // if we have gotten here we can assume resource was not located so send 404
         String response = "resource not found";
@@ -36,4 +40,5 @@ public class RequestFilter extends AbstractEndpoint {
         os.write(response.getBytes());
         os.close();
     }
+
 }

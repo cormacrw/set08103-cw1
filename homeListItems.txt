@@ -4,3 +4,6 @@ Countries in a region,/form/country/region
 Population by Country,/report/population/country
 Population By Region,/report/population/region
 Population By Continent,/report/population/continent
+All Cities,/form/cities/all
+Cities in a continent,/form/cities/continent
+Cities in a Region,/form/cities/region

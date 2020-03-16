@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 public class HomePage {
     public String build() {
-        ArrayList<ListItem> listItems = TextFileReader.getListItems();
+        ArrayList<ListItem> listItems = TextFileReader.getListItems("/tmp/homeListItems.txt");
 
         return new HTMLPageBuilder()
                 .addHeader("Home Page")

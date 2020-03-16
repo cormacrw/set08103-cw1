@@ -1,0 +1,45 @@
+@startuml
+
+actor A1 as "User"
+
+rectangle Database
+
+rectangle "Search System" {
+usecase UC1 as "Countries"
+usecase UC2 as "Top N Population"
+usecase UC3 as "Cities"
+usecase UC4 as "Top City Population"
+usecase UC5 as "Capital Cities"
+usecase UC6 as "Top Capital City Population"
+usecase UC7 as "Top City Population"
+usecase UC8 as "Access to Information on Population"
+usecase UC9 as "Language Records"
+
+usecase UC10 as "Show Report"
+
+
+A1 --> UC1
+A1 --> UC2
+A1 --> UC3
+A1 --> UC4
+A1 --> UC5
+A1 --> UC6
+A1 --> UC7
+A1 --> UC8
+A1 --> UC9
+
+UC1 ..> UC10
+UC2 ..> UC10
+UC3 ..> UC10
+UC4 ..> UC10
+UC5 ..> UC10
+UC6 ..> UC10
+UC7 ..> UC10
+UC8 ..> UC10
+UC9 ..> UC10
+}
+
+UC10 --> Database
+
+
+@enduml

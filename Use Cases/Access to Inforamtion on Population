@@ -1,0 +1,42 @@
+#8. Access to Information on Population
+Goal in Context 
+The company would like to have access to the information based on the population of the world, continents, regions, countries, districts and cities. 
+
+Scope 
+Company. 
+
+Level 
+Primary task. 
+
+Preconditions 
+The populations of the world and its subcategories need to be accessed and viewed by the organization. The information that is required will be the name of the area as well as its population.
+
+Success End Condition 
+The organization will be able to access records on the population of places along with the required information.
+
+Failed End Condition 
+The organization is unable to access the records
+The records have data missing when shown
+Only a limit number of records appear
+
+Primary Actor 
+Scrum Team. 
+
+Trigger 
+The organization has requested the access of population and require the Scrum Team to allow the organization to access select records.
+
+MAIN SUCCESS SCENARIO 
+1. The organization requests to access selected records on the population
+2. The user will ensure that only select records will be accessible. 
+3. The Scrum Group can provide a report of the populations of the people with all its information.
+
+EXTENSIONS 
+2.Records are un-accessible to the organisation:    
+i. check permissions are correct.   
+ii. produce report if there is an error, while ineffective, use until program is fixed.
+
+SUB-VARIATIONS 
+None. 
+
+SCHEDULE 
+DUE DATE: Release 3.0

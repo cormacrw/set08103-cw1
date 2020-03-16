@@ -1,0 +1,42 @@
+#9. Language Records
+Goal in Context 
+The company would like to have access to a list of languages that people know from the most to least spoken languages.
+
+Scope 
+Company. 
+
+Level 
+Primary task. 
+
+Preconditions 
+The records based on the languages will be required to be generated. The report will involve a list of the languages that people around the world know and then be positions from the most spoken language to the least spoken language. A percentage will need to be written up for each of languages.
+
+Success End Condition 
+The records will be accessible to the organization and all information will need to be available. All percentages will need to be checked to ensure that all information is included.
+
+Failed End Condition 
+None of the reports are produced. 
+All information as well as the selected requirements do not appear.
+
+Primary Actor 
+Scrum Group. 
+
+Trigger 
+The organization would like the team to build a report based on the languages that are spoken and sorted in a select order.
+
+MAIN SUCCESS SCENARIO 
+1. The organization requests information based on the population of the people who are currently living in cities and people not living in cities.
+2. The user will supply the information based on what has been asked. 
+3. The data collected will need to go through a calculation to get the percentage if it currently doesn’t have one and produce a correct report.
+4. The Scrum Group can provide a report of the spoken languages and percentages of the people with all its information and accurate data and percentages 
+
+EXTENSIONS 
+3.Percentages fail to work-out correctly:  
+i. check if percentages are incorrectly calculated, fix calculation if issues
+
+
+SUB-VARIATIONS 
+None. 
+
+SCHEDULE 
+DUE DATE: Release 3.0

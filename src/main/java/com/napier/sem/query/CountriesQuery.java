@@ -13,7 +13,7 @@ public class CountriesQuery {
         String sql = "SELECT * FROM country";
 
         if( params.containsKey("region") ) {
-            sql += " WHERE Region = " + params.get("region");
+            sql += " WHERE Region = '" + params.get("region") + "'";
         }
 
         if( params.containsKey("continent") ) {

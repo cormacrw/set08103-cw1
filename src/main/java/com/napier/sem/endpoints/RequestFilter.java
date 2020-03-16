@@ -28,6 +28,10 @@ public class RequestFilter extends AbstractEndpoint {
             new CountryEndpoint( exchange, pathArr ).buildResponse();
             return;
         }
+        if( pathArr[2].equals("cities") ) {
+            new CitiesEndpoint( exchange, pathArr ).buildResponse();
+            return;
+        }
 
         if( pathArr[2].equals("population")) {
             new PopulationEndpoint(exchange,pathArr).buildResponse();
@@ -41,4 +45,5 @@ public class RequestFilter extends AbstractEndpoint {
         os.write(response.getBytes());
         os.close();
     }
+
 }

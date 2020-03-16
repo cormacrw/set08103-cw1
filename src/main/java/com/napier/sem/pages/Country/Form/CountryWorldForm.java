@@ -7,7 +7,7 @@ public class CountryWorldForm {
     public String build() {
         String url = "/report/country/all";
 
-        return new HTMLPageBuilder().addHeader("Cities in the World")
+        return new HTMLPageBuilder().addHeader("Cities.md in the World")
                 .appendToBody( new HTMLFormBuilder(url).addLimitFormInput().build() )
                 .build();
     }

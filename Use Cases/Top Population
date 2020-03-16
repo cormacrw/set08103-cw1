@@ -1,0 +1,47 @@
+#7. Top Population
+Goal in Context 
+The company would like to generate reports based on the population of people. These reports will be based on the continent, region and country.
+
+Scope 
+Company. 
+
+Level 
+Primary task. 
+
+Preconditions 
+The Database will require information of the population of people. The report  will require; the name of the searched area's location (continent/region/ country), that areas total population, the total population of the area that is currently living in a city and the population not living in cities, these will require percentages based on the total living and not currently living in cities.
+
+Success End Condition 
+These reports are available for organization to provide to a database about the population of cities in people in the world based on select requirements with all information provided
+
+Failed End Condition 
+None of the reports are produced. 
+All information as well as the selected requirements do not appear.
+
+Primary Actor 
+Scrum Group. 
+
+Trigger 
+A request for the population of the people living in the world in certain areas to be sent to the organization.
+
+MAIN SUCCESS SCENARIO 
+1. The organization requests information based on the population of the people who are currently living in cities and people not living in cities.
+2. The user will enter a set number into how many cities will appear when the report is created. 
+3. The Database extracts information of all the cities and will then select all cities that meet the requirements.
+4. The data collected will need to go through a calculation to get the percentage if it currently does not have one.
+5. The Scrum Group can provide a report of the populations of the people with all it’s information.
+
+EXTENSIONS 
+
+4.Percentages fail to work-out correctly:  
+i. check if percentages are incorrectly calculated, fix calculation if issues
+
+5.Database will not provide the final report:       
+ i. Check that the requirements have been set up, no spelling or grammar errors     
+ ii. Retry with different parameters   
+
+SUB-VARIATIONS 
+None. 
+
+SCHEDULE 
+DUE DATE: Release 3.0

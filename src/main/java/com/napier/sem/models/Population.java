@@ -23,8 +23,8 @@ public class Population extends Model {
 
         headers.add ("Name");
         headers.add ("Total Population");
-        headers.add ("Population In Cities");
-        headers.add ("Population Out of Cities");
+        headers.add ("Population In Cities.md");
+        headers.add ("Population Out of Cities.md");
 
         return headers;
     }

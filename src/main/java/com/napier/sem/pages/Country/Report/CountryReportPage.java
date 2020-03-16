@@ -25,7 +25,7 @@ public class CountryReportPage {
         ArrayList<Model> countries = CountriesQuery.getCountries(conn, params);
 
         return new HTMLPageBuilder()
-                .addHeader("Countries Report")
+                .addHeader("Countries.md Report")
                 .appendToBody( new HTMLTableBuilder().populate(countries).build() )
                 .build();
     }

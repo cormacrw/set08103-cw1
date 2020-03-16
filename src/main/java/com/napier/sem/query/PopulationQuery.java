@@ -22,13 +22,14 @@ public class PopulationQuery {
     }
 
     public static ArrayList<Model> getPopulationByRegion (Connection conn) {
-        String sql = "";
+        String sql = "select Region, Name, cityPopulation, regionPopulation as Population, round((cityPopulation/regionPopulation)*100,2) as popInCity, round(((regionPopulation-cityPopulation)/regionPopulation)*100,2) as popOutCity from ( select Region, name, population as cityPopulation, (select sum(co2.Population) from country co2 where co2.code = CountryCode) as regionPopulation from ( select co.Region, ci.name, ci.CountryCode, ci.Population from city ci left join country co on ci.CountryCode = co.Code group by co.Region,ci.Name, ci.CountryCode, ci.Population) as subqry ) as subqry2 order by Region,Name;\n";
 
         try {
             ResultSet resultSet = conn.createStatement().executeQuery(sql);
 
             return extractPopulations(resultSet);
         }catch (Exception e) {
+            System.out.println(e.getMessage());
             return null;
         }
     }

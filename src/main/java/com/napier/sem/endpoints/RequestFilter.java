@@ -33,6 +33,11 @@ public class RequestFilter extends AbstractEndpoint {
             return;
         }
 
+        if( pathArr[2].equals("population")) {
+            new PopulationEndpoint(exchange,pathArr).buildResponse();
+            return;
+        }
+
         // if we have gotten here we can assume resource was not located so send 404
         String response = "resource not found";
         exchange.sendResponseHeaders(404, response.getBytes().length);

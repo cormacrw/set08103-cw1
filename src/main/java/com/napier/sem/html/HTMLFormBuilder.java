@@ -29,7 +29,7 @@ public class HTMLFormBuilder extends HTMLBuilder {
     public HTMLFormBuilder addSelectFormInput(String name, ArrayList<String> items) {
         append("<div class=\"form-group\">");
         append("<label for=\"" + name + "\">" + name + "</label>");
-        append("<select class=\"form-control\" name=\"" + name + "\" >");
+        append("<select class=\"form-control\" name=\"" + name.toLowerCase() + "\" >");
         for(int i = 0; i < items.size(); i++) {
             append("<option>" + items.get(i) + "</option>");
         }

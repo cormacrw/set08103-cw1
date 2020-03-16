@@ -1,0 +1,42 @@
+#5. Capital Cities
+Goal in Context 
+The company would like to generate reports on the capital cities of the world and have them set from the largest population to the smallest. These reports will be based on the world, continents and region.
+
+Scope   
+Company. 
+
+Level   
+Primary task. 
+
+Preconditions   
+The Database will require information of all capital and have them ordered from the capital city with the most people living in it to the one with the lowest. This report must contain the capital city's name, the country it is in and its current population.
+
+Success End Condition   
+The reports and produced and contain all information that is required in them. All data is in the report and 
+
+Failed End Condition    
+None of the reports are produced. 
+There is some missing data and not all data appears in the final reports
+
+Primary Actor   
+Scrum Group. 
+
+Trigger     
+A request for the capital cities of a select area is sent to the organization.
+
+MAIN SUCCESS SCENARIO   
+1. The organization requests would like a report based on the capital cities in areas of the world and the information that goes with them.
+2. The user will create a query to look for the capital cities and the information that goes along with it.
+3. The Database will create a report based on what the user has requested. The user will have the query set up to involve the name of the city, country it's located in and the population.
+4. The Group will be able to provide reports based on the capital cities of the world will a set requirement of highest to lowest for the organization. 
+
+EXTENSIONS  
+4.Database will not provide the final report:       
+ i. Check that the requirements have been set up, no spelling or grammar errors     
+ ii. Retry with different parameters    
+
+SUB-VARIATIONS 
+None. 
+
+SCHEDULE 
+DUE DATE: Release 3.0

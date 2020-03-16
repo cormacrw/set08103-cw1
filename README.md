@@ -48,3 +48,15 @@ All countries in continent | /report/country/continent
 All countries in region | /report/country/region
 top x countries in world form | /form/country/world/top
 top x countries in world report | /form/country/world/top/x
+
+# Population query
+
+By Country
+```
+select country.Name, country.Population, ROUND(SUM(city.Population) / country.Population * 100,1) as popInCity, ROUND((country.Population - SUM(city.Population)) / country.Population * 100, 1) as popOutCity from country join city on country.Code = city.CountryCode GROUP BY country.Code;
+```
+
+By Region
+```
+select Region, Name, cityPopulation, regionPopulation, round((cityPopulation/regionPopulation)*100,2) as popInCity, round(((regionPopulation-cityPopulation)/regionPopulation)*100,2) as popOutCity from ( select Region, name, population as cityPopulation, (select sum(co2.Population) from country co2 where co2.code = CountryCode) as regionPopulation from ( select co.Region, ci.name, ci.CountryCode, ci.Population from city ci left join country co on ci.CountryCode = co.Code group by co.Region,ci.Name, ci.CountryCode, ci.Population) as subqry ) as subqry2 order by Region,Name;
+```

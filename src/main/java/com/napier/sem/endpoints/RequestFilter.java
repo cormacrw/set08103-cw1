@@ -24,19 +24,23 @@ public class RequestFilter extends AbstractEndpoint {
             new DataTestEndpoint( exchange ).buildResponse();
             return;
         }
-
-
         System.out.println(exchange.getRequestURI().getRawPath());
         String[] pathArr = exchange.getRequestURI().getRawPath().split("/");
 
-        if( pathArr[1].equals("report") && pathArr.length > 3 ) {
-
-            if( pathArr[2].equals("city") ) {
-
-            }
+        if( pathArr[2].equals("country") ) {
+            new CountryEndpoint( exchange, pathArr ).buildResponse();
+            return;
+        }
+        if( pathArr[2].equals("cities") ) {
+            new CitiesEndpoint( exchange, pathArr ).buildResponse();
+            return;
         }
 
-        int a = 2;
+        if( pathArr[2].equals("population")) {
+            new PopulationEndpoint(exchange,pathArr).buildResponse();
+            return;
+        }
+
         // if we have gotten here we can assume resource was not located so send 404
         String response = "resource not found";
         exchange.sendResponseHeaders(404, response.getBytes().length);
@@ -44,4 +48,5 @@ public class RequestFilter extends AbstractEndpoint {
         os.write(response.getBytes());
         os.close();
     }
+
 }

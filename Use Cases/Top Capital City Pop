@@ -1,0 +1,42 @@
+#6. Top Capital City Population
+Goal in Context 
+The company would like to generate reports based on a selected number of capital cities. The number of capital cities will be specified by a user. These reports will be based on the world, continents and region.
+
+Scope   
+Company. 
+
+Level   
+Primary task. 
+
+Preconditions   
+The Database will require information of the top populated capital cities and only a select number should appear, that number has been specified by the user. The report  will require the capital city’s name, the country in which it is located and it’s population
+
+Success End Condition   
+The reports should contain all information that the report has requested in the brief based on the population of selected capital cities.
+
+Failed End Condition    
+None of the reports are produced. 
+More cities than the number specified appear
+The information that appears in inaccurate or has data missing
+
+Primary Actor   
+Scrum Group. 
+
+Trigger     
+A request for the top capital cities of a select area in the world is sent to the organization.
+
+MAIN SUCCESS SCENARIO 
+1. The organization has requested a report based on the capital cities in the world and its information.
+2. The user will enter a set number into how many capital cities information will be used in the report when it is created
+3. The Database will find the information of all the capital cities and will then select the capital cities and all the information that meet the requirements.
+4. The Report will shorten down the full list of all the information collected into the number that has been selected by the user
+5. The Scrum Group can provide a top capital city populations reports based on the information provided by the report and give it to the organization. 
+
+EXTENSIONS  
+None
+
+SUB-VARIATIONS 
+None. 
+
+SCHEDULE 
+DUE DATE: Release 3.0

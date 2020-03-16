@@ -1,4 +1,5 @@
 @startuml
+
 actor A1 as "User"
 actor A2 as "Client"
 
@@ -7,9 +8,9 @@ rectangle "Search System" {
 usecase UC1 as "Search Database"
 usecase UCa as " Get Results"
 usecase UC6 as "Start Application"
-usecase UC3 as "Set Paramiters"
+usecase UC3 as "Set Parameters"
 usecase UC2 as "Enter Query"
-usecase UC4 as "Anaylse Report"
+usecase UC4 as "Analyse Report"
 
 A1 - UC6
 UC6 - UC2

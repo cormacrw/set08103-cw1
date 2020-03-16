@@ -7,11 +7,13 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
+/**
+ * Class responsible for parsing the homeListItems.txt file and creating
+ * the list item classes
+ */
 public class TextFileReader {
 
-    public static ArrayList<ListItem> getListItems() {
-        String filePath = "/tmp/homeListItems.txt";
-        System.out.println(filePath);
+    public static ArrayList<ListItem> getListItems(String filePath) {
         BufferedReader reader;
         ArrayList<ListItem> listItems = new ArrayList<ListItem>();
         try {

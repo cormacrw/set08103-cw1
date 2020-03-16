@@ -7,13 +7,16 @@ import com.napier.sem.html.HTMLPageBuilder;
 
 import java.util.ArrayList;
 
+/**
+ * Class responsible for building the landing page of webapp
+ */
 public class HomePage {
     public String build() {
-        ArrayList<ListItem> listItems = TextFileReader.getListItems();
+        ArrayList<ListItem> listItems = TextFileReader.getListItems("/tmp/homeListItems.txt");
 
         return new HTMLPageBuilder()
                 .addHeader("Home Page")
-                .addBody( new HTMLListBuilder().addItems( listItems ).build() )
+                .appendToBody( new HTMLListBuilder().addItems( listItems ).build() )
                 .build();
     }
 }

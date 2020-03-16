@@ -1,0 +1,42 @@
+#4. Top City Population
+Goal in Context 
+The company would like to generate reports based on a selected number of cities that have been specified by a user. These reports will be based on the world, continents, region, country and district.
+
+Scope 
+Company. 
+
+Level 
+Primary task. 
+
+Preconditions 
+The Database will require information of the top populated cities which has been specified by the user on how many there will be. The report  will require the city’s name, the country it’s located in, the district in which it is present and it’s population
+
+Success End Condition 
+These reports are available for organization to provide to a database about the top population of cities in the world based on a set number which has been set by the user
+
+Failed End Condition 
+None of the reports are produced. 
+More cities than the number specified appear
+
+Primary Actor 
+Scrum Group. 
+
+Trigger 
+A request for the top cities of a select area in the world is sent to the organization.
+
+MAIN SUCCESS SCENARIO 
+1. The organization requests information based on the top populated cities and their information. The total number of cities that appears will be selected by the user
+2. The user will enter a set number into how many cities will appear when the report is created. 
+3. The Database extracts information of all the cities and will then select all cities that meet the requirements.
+4. The Scrum Group can provide a top populations reports based on the cities for the organization. 
+
+EXTENSIONS  
+2.Search brings back an error   
+i. Read over what has been entered.     
+ii. Correct spelling or grammer errors
+
+SUB-VARIATIONS 
+None. 
+
+SCHEDULE 
+DUE DATE: Release 3.0

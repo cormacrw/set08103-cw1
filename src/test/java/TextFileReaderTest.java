@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class TextFileReaderTest {
     @Test
     public void test() {
-        ArrayList<ListItem> listItems = TextFileReader.getListItems("/homeListItems.txt");
-
+        ArrayList<ListItem> listItems = TextFileReader.getListItems("./homeListItems.txt");
+        assertEquals(listItems.size(), 9);
     }
 }

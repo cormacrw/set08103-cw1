@@ -4,6 +4,10 @@ import java.io.InputStream;
 import java.util.HashMap;
 import java.util.Scanner;
 
+/**
+ * Class that is responsible for parsing an input stream
+ * from incoming requests
+ */
 public class RequestBodyReader {
     InputStream requestBodyStream;
 

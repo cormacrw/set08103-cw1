@@ -7,6 +7,9 @@ import com.napier.sem.html.HTMLPageBuilder;
 
 import java.util.ArrayList;
 
+/**
+ * Class responsible for building the landing page of webapp
+ */
 public class HomePage {
     public String build() {
         ArrayList<ListItem> listItems = TextFileReader.getListItems("/tmp/homeListItems.txt");
